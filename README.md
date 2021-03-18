@@ -25,15 +25,52 @@ basic auth
 
 ## jeus API
 
-* basic auth: jeus id, pass
+* basic auth: jeusadmin id, password
 
-### jeus.admin.getServerInfo(url: string, auth: object = {}, params: object = {})
+### jeus.admin.command(url: string, auth: object = {}, params: object = {})
 
-Getting jeus blog info
+execute jeus command 
 
 ```javascript
-jeus.admin.getServerInfo(url, auth, params)
+var url = 'http://localhost:9736/jsonCommand/command.json';
+var auth = {
+    username : USERNAME,
+    password : PASSWORD
+}
+var params = {
+    "jeusadmin": {
+        "command": "server-info",
+        "options":[
+            "-server server1",
+            "-state"
+        ],
+        "argument": null
+    }
+};
+
+jeus.admin.command(url, auth, params);
 ```
+### jeus.admin.api(url: string, auth: object = {}, params: object = {})
+
+```javascript
+var url = 'http://localhost:9736/jsonCommand/command.json';
+var auth = {
+    username : USERNAME,
+    password : PASSWORD
+}
+var params = {
+    "command": "server-info",
+    "options":[
+        "-server server1",
+        "-state"
+    ],
+    "argument": null
+}
+
+jeus.admin.command(url, auth, params);
+```
+## Details 
+https://technet.tmaxsoft.com/upload/download/online/jeus/pver-20170202-000001/reference-book/ch04.html#jeusadmin-json-support
 
 ## License
 
