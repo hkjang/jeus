@@ -1,6 +1,6 @@
 # jeus API for javascript
 
-**Javascript** jeus API package, Support **Node.js**, and **Browser**
+**Javascript** jeus API package, Support **Node.js**
 
 ## Installation
 

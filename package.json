@@ -1,6 +1,6 @@
 {
   "name": "jeus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Javascript jeusadmin json API package, Support Node.js",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,14 @@
     "was"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/hkjang/jeus#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/jeus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hkjang/jeus/issues"
+  },
   "files": [
     "index.js",
     "LICENSE",
