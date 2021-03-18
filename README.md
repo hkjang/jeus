@@ -67,7 +67,7 @@ var params = {
     "argument": null
 }
 
-jeus.admin.command(url, auth, params);
+jeus.admin.api(url, auth, params);
 ```
 ## Details 
 https://technet.tmaxsoft.com/upload/download/online/jeus/pver-20170202-000001/reference-book/ch04.html#jeusadmin-json-support
