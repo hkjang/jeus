@@ -1,0 +1,26 @@
+{
+  "name": "jeus",
+  "version": "1.0.0",
+  "description": "Javascript jeus API package, Support Node.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/jeus.git"
+  },
+  "keywords": [
+    "jeus"
+  ],
+  "license": "MIT",
+  "files": [
+    "src",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
