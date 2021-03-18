@@ -1,7 +1,7 @@
 {
   "name": "jeus",
-  "version": "1.0.0",
-  "description": "Javascript jeus API package, Support Node.js",
+  "version": "1.0.1",
+  "description": "Javascript jeusadmin json API package, Support Node.js",
   "main": "index.js",
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack"
