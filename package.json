@@ -11,11 +11,13 @@
     "url": "git+https://github.com/hkjang/jeus.git"
   },
   "keywords": [
-    "jeus"
+    "jeus",
+    "tmax",
+    "tmaxsoft",
+    "was"
   ],
   "license": "MIT",
   "files": [
-    "src",
     "index.js",
     "LICENSE",
     "README.md"
